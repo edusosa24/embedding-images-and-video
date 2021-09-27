@@ -1,0 +1,136 @@
+*{
+  color:white;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  padding: 0px;
+  background-color: #181818;
+}
+
+header{
+  height: 3.8rem;
+  display: flex;
+  background-color: #202020;
+  gap: 4rem;
+  align-items: center;
+  padding: 0rem 1.5rem;
+}
+
+.icon{
+  width: 0.9rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(15deg)
+          brightness(106%) contrast(92%);
+}
+
+#left-header{
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+}
+
+#side-menu{
+  margin-top: 0.4rem;
+}
+
+#home{
+  display: flex;
+  align-items: center;
+}
+
+#yt-icon{
+  padding: 0rem;
+  width: 2.1rem;
+}
+
+#yt-title{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#search-box{
+  width: 39rem;
+  height: 2.2rem;
+  background-color: #181818;
+  color: #ffffff;
+  border-style: solid;
+  border-color: dimgray;
+  border-width: 1px;
+  padding: 0rem 0.7rem;
+  font-size: 1rem;
+  font-family: 'Roboto-condense', sans-serif;
+}
+
+#search-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 2.2rem;
+  background-color: dimgray;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 0rem 0.7rem;
+}
+
+#search-voice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: #181818;
+  margin-left: 1rem;
+}
+
+#user-tools, #search{
+  display: flex;
+  gap: 0rem;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+
+#user-tools{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+#apps{
+  margin-top: 0.4rem;
+  width: 1.2rem;
+}
+
+#settings{
+  margin-top: 0.4rem;
+  width: 0.3rem;
+}
+
+#sign-in{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-color: #3E9CFF;
+  border-style: solid;
+  border-radius: 0.2rem;
+  border-width: 0.1rem;
+  padding: 0.5rem;
+}
+
+#sign-text{
+  font-family: 'Roboto-condense', sans-serif;
+  color: #3E9CFF;
+}
+
+#sign-icon{
+  filter: invert(51%) sepia(96%) saturate(2198%) hue-rotate(191deg)
+   brightness(103%) contrast(101%);
+}
